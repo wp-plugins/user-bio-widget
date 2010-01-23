@@ -12,6 +12,8 @@ This widget will easily allow you to display the "Biographical Info" of any blog
 
 Additionally, the widget grants the ability to display the selected author's Gravatar, with multiple size and alignment options available.
 
+Please direct any bug reports, support questions, or requests <a href="http://anthonybubel.com/contact">here</a>.
+
 == Installation ==
 
 1. Upload `user-bio-widget.php` to the `/wp-content/plugins/` directory.

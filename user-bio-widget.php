@@ -62,7 +62,6 @@ class User_Bio_Widget extends WP_Widget {
 	}
 
 	function form($instance) {
-
 		$instance = wp_parse_args( (array) $instance, array('title'=>'', 'author'=>'', 'gravatar'=>'', 'grav_size'=>'96', 'grav_align'=>'none') );
 		
 		$title = esc_attr($instance['title']);
@@ -88,7 +87,7 @@ class User_Bio_Widget extends WP_Widget {
 				}
 			echo '</select></label></p>';
 			
-?> 
+?>
 			<p><label for="<?php echo $this->get_field_id('gravatar'); ?>"><?php echo __('Display this author\'s <a href="http://gravatar.com/" title="Gravatar">Gravatar</a>'); ?>
 			<input id="<?php echo $this->get_field_id('gravatar'); ?>" name="<?php echo $this->get_field_name('gravatar'); ?>" type="checkbox" value="display" <?php if($gravatar == "display") echo 'CHECKED'; ?> onchange="if ( this.checked == false ) jQuery( 'p#extra-options' ).slideUp(); else jQuery( 'p#extra-options' ).slideDown();" />
 			</label></p>
