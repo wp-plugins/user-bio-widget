@@ -1,6 +1,6 @@
 === User Bio Widget ===
 Tags: widget, bio, user bio, gravatar
-Requires at least: 2.5
+Requires at least: 2.8
 Tested up to: 2.9
 Stable tag: 0.1
 
