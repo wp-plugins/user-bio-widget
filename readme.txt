@@ -1,7 +1,7 @@
 === User Bio Widget ===
 Tags: widget, bio, user bio, author bio, gravatar
 Requires at least: 2.8
-Tested up to: 3.0
+Tested up to: 3.1.2
 Stable tag: 0.2
 
 Easily display the "Biographical Info", and Gravatar, of any author's user profile in your blog's sidebar. Compatible with the Multi-Site functionality.
