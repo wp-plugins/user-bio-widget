@@ -135,7 +135,7 @@ class User_Bio_Widget extends WP_Widget {
 			echo '<strong>' . __('Gravatar Settings:') . '</strong><br /><br />';
 ?>
 			<label for="<?php echo $this->get_field_id('only_gravatar'); ?>"><?php echo __('Display only the Gravatar'); ?>
-			<input id="<?php echo $this->get_field_id('only_gravatar'); ?>" name="<?php echo $this->get_field_name('only_gravatar'); ?>" type="checkbox" value="yes" <?php if($only_gravatar == "yes") echo 'CHECKED'; ?> />
+			<input id="<?php echo $this->get_field_id('only_gravatar'); ?>" name="<?php echo $this->get_field_name('only_gravatar'); ?>" type="checkbox" value="yes" <?php if($only_gravatar == "yes") echo 'CHECKED'; ?> /></label>
 			<br /><br />
 <?php
 			$sizes = array('64' => 'Small - 64px', '96' => 'Medium - 96px', '128' => 'Large - 128px', '256' => 'Extra Large - 256px');
